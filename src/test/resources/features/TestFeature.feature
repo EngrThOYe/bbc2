@@ -1,7 +1,7 @@
 Feature: Visit a page and click on a link
 
   @test
-  Scenario Outline: Visit a page and check the page title
+  Scenario Outline: Visit a page and check the page 
     Given I go to url https://www.bbc.co.uk/
     When I click on click on Sign in
     And sign in page is displayed
